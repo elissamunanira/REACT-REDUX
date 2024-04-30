@@ -13,6 +13,7 @@ const SpecificProduct = () => {
     return <div>
       <h1>{ data?.brand}</h1>
       <h1>{ data?.category} </h1>
+      <h2>{ data?.description} </h2>
     </div>;
     };
 
